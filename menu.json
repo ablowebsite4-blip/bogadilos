@@ -1,0 +1,140 @@
+{
+  "bocadillos": {
+    "label": "BOCADILLOS",
+    "labelAr": "بوكاديوس",
+    "emoji": "🥖",
+    "items": [
+      { "id": "boc-oeuf", "name": "Bocadillo Œuf", "price": 12, "note": "بيض" },
+      { "id": "boc-cacher", "name": "Bocadillo Cacher", "price": 12, "note": "كاشير" },
+      { "id": "boc-omelette", "name": "Bocadillo Omelette", "price": 13, "note": "أومليط" },
+      { "id": "boc-tortilla", "name": "Bocadillo Tortilla", "price": 15, "note": "تورتيا" },
+      { "id": "boc-francesca", "name": "Bocadillo Francesca", "price": 15, "note": "فرانسيسكا" },
+      { "id": "boc-thon", "name": "Bocadillo Thon", "price": 17, "note": "طون" },
+      { "id": "boc-dinde-fumee", "name": "Bocadillo Dinde Fumée", "price": 17, "note": "داند فيمي" },
+      { "id": "boc-saucisse-dinde", "name": "Bocadillo Saucisse Dinde", "price": 22, "note": "صوصيص داند" },
+      { "id": "boc-tangerino", "name": "Bocadillo Tangerino", "price": 23, "badge": "⭐ Spécial", "badgeColor": "yellow", "note": "طنجرينو" },
+      { "id": "boc-poulet", "name": "Bocadillo Poulet", "price": 23, "note": "دجاج" },
+      { "id": "boc-vh", "name": "Bocadillo V.Hachée", "price": 24, "note": "كفتة" },
+      { "id": "boc-saucisse", "name": "Bocadillo Saucisse", "price": 25, "note": "صوصيص" },
+      { "id": "boc-crispy", "name": "Bocadillo Crispy", "price": 30, "badge": "⚡ Crispy", "badgeColor": "orange", "note": "كريسبي" },
+      { "id": "boc-gambas", "name": "Bocadillo Gambas", "price": 35, "note": "كامباس" },
+      { "id": "boc-foie", "name": "Bocadillo Foie", "price": 35, "note": "كبدة" },
+      { "id": "boc-mixte", "name": "Bocadillo Mixte", "price": 35, "note": "ميكس" },
+      { "id": "boc-rigamonti", "name": "Bocadillo Rigamonti", "price": 45, "note": "ريكامونتي" }
+    ]
+  },
+  "plats": {
+    "label": "LES PLATS",
+    "labelAr": "أطباق",
+    "emoji": "🍽",
+    "items": [
+      { "id": "pla-tortilla", "name": "Plat Tortilla", "price": 28, "note": "تورتيا" },
+      { "id": "pla-poulet", "name": "Plat Poulet", "price": 35, "note": "دجاج" },
+      { "id": "pla-saucisse-dinde", "name": "Plat Saucisse Dinde", "price": 35, "note": "صوصيص داند" },
+      { "id": "pla-vh", "name": "Plat V.Hachée", "price": 38, "note": "كفتة" },
+      { "id": "pla-saucisse", "name": "Plat Saucisse", "price": 40, "note": "صوصيص" },
+      { "id": "pla-crispy", "name": "Plat Crispy", "price": 40, "note": "كريسبي", "badge": "⚡ Crispy", "badgeColor": "orange" },
+      { "id": "pla-mixte", "name": "Plat Mixte", "price": 45, "note": "ميكس" },
+      { "id": "pla-rigamonti", "name": "Plat Rigamonti", "price": 50, "note": "ريكامونتي" },
+      { "id": "pla-gambas", "name": "Plat Gambas", "price": 50, "note": "كامباس" }
+    ]
+  },
+  "baguetos": {
+    "label": "BAGUETOS",
+    "emoji": "🥖",
+    "items": [
+      { "id": "bag-poulet", "name": "Baguetos Poulet", "price": 40 },
+      { "id": "bag-vh", "name": "Baguetos V.H.", "price": 45 },
+      { "id": "bag-pepperoni", "name": "Baguetos Pepperoni", "price": 45 },
+      { "id": "bag-mixte", "name": "Baguetos Mixte", "price": 50 }
+    ]
+  },
+  "burger": {
+    "label": "BURGER AU FOUR",
+    "emoji": "🍔",
+    "items": [
+      { "id": "bur-cheese", "name": "Cheese Burger", "price": 30 },
+      { "id": "bur-crispy", "name": "Burger Crispy", "price": 30, "badge": "⚡ Crispy", "badgeColor": "orange" },
+      { "id": "bur-cordon-bleu", "name": "Burger Cordon Bleu", "price": 35 },
+      { "id": "bur-double-cheese", "name": "Double Cheese Burger", "price": 40 },
+      { "id": "bur-double-crispy", "name": "Double Crispy Burger", "price": 40, "badge": "⚡ Double", "badgeColor": "red" },
+      { "id": "bur-maison", "name": "Burger Maison", "price": 45, "badge": "⭐ Spécial", "badgeColor": "yellow" }
+    ]
+  },
+  "pinsa": {
+    "label": "PINSA ROMANA",
+    "emoji": "🍕",
+    "items": [
+      { "id": "pin-poulet", "name": "Pinsa Poulet", "price": 40, "note": "Sauce au choix, Poulet, Mozzarella, Poivron, champignon" },
+      { "id": "pin-thon", "name": "Pinsa Thon", "price": 40, "note": "Sauce Tomate, Thon, Mozzarella, Poivron, Oignon, champignon" },
+      { "id": "pin-carbonara", "name": "Pinsa Carbonara", "price": 45, "note": "Sauce au choix, Mozzarella, Poivron, champignon" },
+      { "id": "pin-pepperoni", "name": "Pinsa Pepperoni", "price": 45, "note": "Sauce Tomate, Mozzarella, Pepperoni, champignon" },
+      { "id": "pin-vh", "name": "Pinsa V.Hachée", "price": 45, "note": "Sauce au choix, V.Hachée, Mozzarella, Poivron, Oignon" },
+      { "id": "pin-mixte", "name": "Pinsa Mixte", "price": 50, "note": "Sauce Tomate, Mozzarella, Charcuterie, Poivron, Oignon, champignon" }
+    ]
+  },
+  "fried_chicken": {
+    "label": "FRIED CHICKEN",
+    "emoji": "🍗",
+    "items": [
+      { "id": "fc-normale", "name": "Fried Chicken Normale", "price": 35 },
+      { "id": "fc-gratine", "name": "Fried Chicken Gratiné", "price": 45, "badge": "Gratiné", "badgeColor": "red" }
+    ]
+  },
+  "boxe": {
+    "label": "BESTE BOXE",
+    "emoji": "🥡",
+    "items": [
+      { "id": "box-normale", "name": "Beste Boxe Normale", "price": 35 },
+      { "id": "box-gratine", "name": "Beste Boxe Gratiné", "price": 45, "badge": "Gratiné", "badgeColor": "red" }
+    ]
+  },
+  "salades": {
+    "label": "LES SALADES",
+    "labelAr": "سلطات",
+    "emoji": "🥗",
+    "items": [
+      { "id": "sal-rosa", "name": "Salade Rosa", "price": 25, "note": "روز" },
+      { "id": "sal-chef-p", "name": "Salade Chef (P)", "price": 25, "note": "Poulet ou Thon - Laitue, Maïs, Avocat, Oeuf, Concombre, Carotte, Choux, Tomates Cerises" },
+      { "id": "sal-chef-g", "name": "Salade Chef (G)", "price": 35, "note": "Poulet ou Thon - Laitue, Maïs, Avocat, Oeuf, Concombre, Carotte, Choux, Tomates Cerises" },
+      { "id": "sal-cesar-p", "name": "Salade César (P)", "price": 26, "note": "Laitue, Tomates Cerises, Poulet, Fromage Parmesan, Croûton, Maïs" },
+      { "id": "sal-cesar-g", "name": "Salade César (G)", "price": 36, "note": "Laitue, Tomates Cerises, Poulet, Fromage Parmesan, Croûton, Maïs" },
+      { "id": "sal-italien-p", "name": "Salade Italien (P)", "price": 30, "note": "Laitue, Poulet crispy, Avocat, Fromage Rouge, Pâte, Maïs, Tomates Cerises, Dinde Fumée, Sauce Pesto" },
+      { "id": "sal-italien-g", "name": "Salade Italien (G)", "price": 40, "note": "Laitue, Poulet crispy, Avocat, Fromage Rouge, Pâte, Maïs, Tomates Cerises, Dinde Fumée, Sauce Pesto" }
+    ]
+  },
+  "desserts": {
+    "label": "DESSERTS",
+    "labelAr": "حلويات",
+    "emoji": "🍰",
+    "items": [
+      { "id": "des-tiramisu", "name": "Tiramisu", "price": 15 },
+      { "id": "des-cheesecake", "name": "Cheesecake", "price": 17 }
+    ]
+  },
+  "boissons": {
+    "label": "BOISSONS",
+    "labelAr": "مشروبات",
+    "emoji": "🥤",
+    "items": [
+      { "id": "boi-eau", "name": "Eau minérale", "price": 3, "note": "ماء معدني" },
+      { "id": "boi-citron", "name": "Citron", "price": 5, "note": "ليمون" },
+      { "id": "boi-orange", "name": "Orange", "price": 5, "note": "برتقال" },
+      { "id": "boi-starsoda", "name": "Star soda", "price": 6, "note": "ستار صودا" },
+      { "id": "boi-gazeuse", "name": "Gazeuse", "price": 7, "note": "غازية" }
+    ]
+  },
+  "suplements": {
+    "label": "SUPLEMENTS",
+    "labelAr": "إضافات",
+    "emoji": "🍟",
+    "items": [
+      { "id": "sup-sauce", "name": "Sauce", "price": 3, "note": "صلصة" },
+      { "id": "sup-fromage", "name": "Fromage", "price": 3, "note": "فروماج" },
+      { "id": "sup-oeuf", "name": "Œuf", "price": 3, "note": "بيض" },
+      { "id": "sup-cacher", "name": "Cacher", "price": 3, "note": "كاشير" },
+      { "id": "sup-thon", "name": "Thon", "price": 7, "note": "طون" },
+      { "id": "sup-frites", "name": "Frites", "price": 7, "note": "فريت" }
+    ]
+  }
+}
