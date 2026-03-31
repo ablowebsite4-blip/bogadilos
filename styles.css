@@ -739,6 +739,7 @@ body::before {
 }
 
 .add-btn {
+    background: var(--green);
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -756,7 +757,7 @@ body::before {
     overflow: hidden;
 }
 
-.btn-add::before {
+.add-btn::before {
     content: '';
     position: absolute;
     inset: 0;
@@ -765,26 +766,26 @@ body::before {
     transition: var(--transition);
 }
 
-.btn-add:hover {
+.add-btn:hover {
     background: var(--green-light);
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 10px 24px rgba(12, 77, 41, 0.3);
 }
 
-.btn-add:hover::before {
+.add-btn:hover::before {
     opacity: 1;
 }
 
-.btn-add:active {
+.add-btn:active {
     transform: scale(0.92);
     transition: var(--transition-fast);
 }
 
-.btn-add svg {
+.add-btn svg {
     transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.btn-add:hover svg {
+.add-btn:hover svg {
     transform: rotate(90deg);
 }
 
@@ -1990,4 +1991,18 @@ html[dir="rtl"] .add-btn {
     0%, 20%, 100% { transform: rotate(0); }
     4%, 12% { transform: rotate(-15deg); }
     8%, 16% { transform: rotate(15deg); }
+}
+
+@media (max-width: 600px) {
+    .floating-call-btn {
+        width: 56px;
+        padding: 0;
+        border-radius: 50%;
+    }
+    .floating-call-btn span {
+        display: none;
+    }
+    .floating-call-btn svg {
+        margin: 0;
+    }
 }
